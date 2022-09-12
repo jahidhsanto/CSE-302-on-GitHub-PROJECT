@@ -23,12 +23,20 @@
           <div class="col-6">
             <div class="row">
               <div class="col">
-                <i class="fa-solid fa-phone"></i> +880 1234 567890
+                <a href="tel:+8801878959101" style="text-decoration: none; color: white;">
+                  <i class="fa-solid fa-phone"></i> +880 1630-465310
+                </a>
               </div>
               <div class="col">
-                <i class="fa-solid fa-user"></i> Create account
+                <a href="registration.php" style="text-decoration: none; color: white;">
+                  <i class="fa-solid fa-user"></i> Create account
+                </a>
               </div>
-              <div class="col"><i class="fa-solid fa-lock"></i> Login</div>
+              <div class="col">
+                <a href="login.php" style="text-decoration: none; color: white;">
+                <i class="fa-solid fa-lock"></i> Login
+              </a>
+            </div>  
             </div>
           </div>
           <div class="col"></div>
@@ -39,13 +47,13 @@
           style="background-image: linear-gradient(to right, #2c86f0, #2c51c9)"
         >
           <div class="container-fluid">
-            <a href="#" class="navbar-brand">
+            <a href="index.php" class="navbar-brand">
               <img src="img/LoGo.png" alt="logo" style="width: 50px" />
             </a>
 
             <ul class="nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">PACKAGES</a>
@@ -57,33 +65,27 @@
                 <a class="nav-link" href="#">GALLERY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="contact_us.php">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="contact_us.php">CONTACT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="profile.php"
                   ><i class="fa-solid fa-user"></i>
                   <!-- ######################################## -->
                   Account
                 </a>
-                <p>
-                  <!-- <span><a href="#">Register or Login</a></span> -->
-                  <span
-                    >Register
-                    <!-- <a class="nav-link" href="#">Register</a> -->
+                <p >
+                    <a href="registration.php" style="color: white;">Register</a>
                   </span>
                   <span> or </span>
-                  <span
-                    >Login
-                    <!-- <a class="nav-link" href="#">Login</a> -->
-                  </span>
+                    <a href="login.php" style="color: white;">Login</a>
                 </p>
                 <!-- ######################################## -->
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="booking.php">
                   <button type="button" class="btn btn-primary btn-danger">
                     BOOKING
                   </button>
@@ -275,10 +277,10 @@
           class="text-center p-3"
           style="background-color: rgba(0, 0, 0, 0.2)"
         >
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/"
-            >MDBootstrap.com</a
-          >
+        © 2022 Copyright:
+          <a class="text-white" href="https://www.facebook.com/jahidhsanto/">
+            jahidhsanto
+            </a>
         </div>
         <!-- Copyright -->
       </footer>

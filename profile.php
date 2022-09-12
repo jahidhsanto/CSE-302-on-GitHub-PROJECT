@@ -23,12 +23,20 @@
           <div class="col-6">
             <div class="row">
               <div class="col">
-                <i class="fa-solid fa-phone"></i> +880 1234 567890
+                <a href="tel:+8801878959101" style="text-decoration: none; color: white;">
+                  <i class="fa-solid fa-phone"></i> +880 1878 959101
+                </a>
               </div>
               <div class="col">
-                <i class="fa-solid fa-user"></i> Create account
+                <a href="registration.php" style="text-decoration: none; color: white;">
+                  <i class="fa-solid fa-user"></i> Create account
+                </a>
               </div>
-              <div class="col"><i class="fa-solid fa-lock"></i> Login</div>
+              <div class="col">
+                <a href="login.php" style="text-decoration: none; color: white;">
+                <i class="fa-solid fa-lock"></i> Login
+              </a>
+            </div>  
             </div>
           </div>
           <div class="col"></div>
@@ -39,13 +47,13 @@
           style="background-image: linear-gradient(to right, #2c86f0, #2c51c9)"
         >
           <div class="container-fluid">
-            <a href="#" class="navbar-brand">
+            <a href="index.php" class="navbar-brand">
               <img src="img/LoGo.png" alt="logo" style="width: 50px" />
             </a>
 
             <ul class="nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.php">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">PACKAGES</a>
@@ -57,33 +65,27 @@
                 <a class="nav-link" href="#">GALLERY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="contact_us.php">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="contact_us.php">CONTACT</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="profile.php"
                   ><i class="fa-solid fa-user"></i>
                   <!-- ######################################## -->
                   Account
                 </a>
-                <p>
-                  <!-- <span><a href="#">Register or Login</a></span> -->
-                  <span
-                    >Register
-                    <!-- <a class="nav-link" href="#">Register</a> -->
+                <p >
+                    <a href="registration.php" style="color: white;">Register</a>
                   </span>
                   <span> or </span>
-                  <span
-                    >Login
-                    <!-- <a class="nav-link" href="#">Login</a> -->
-                  </span>
+                    <a href="login.php" style="color: white;">Login</a>
                 </p>
                 <!-- ######################################## -->
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="booking.php">
                   <button type="button" class="btn btn-primary btn-danger">
                     BOOKING
                   </button>
@@ -98,94 +100,94 @@
       <div class="container">
         <div class="row d-flex justify-content-center align-items-center mt-5">
           <div class="col"></div>
-          <div class="col-6">
+          <div class="col-10">
             <div
-              class="card p-5 shadow p-3 mb-5 bg-body rounded"
+              class="card p-1 shadow mb-2 bg-body rounded"
               style="border-radius: 15px"
             >
-              <h2 class="text-uppercase text-center mb-5">CREATE AN ACCOUNT</h2>
-
-              <form>
-                <div class="form-outline mb-2">
-                  <label class="form-label" for="form3Example1cg">
-                    Your Name
-                  </label>
-                  <input
-                    type="text"
-                    id="form3Example1cg"
-                    class="form-control form-control-lg"
-                  />
+              <div class="row">
+                <div class="col text-center align-middle">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="col">
+                  <h5>Hello</h5>
+                  <h6>User Name</h6>
                 </div>
 
-                <div class="form-outline mb-2">
-                  <label class="form-label" for="form3Example3cg">
-                    Your Email
-                  </label>
-                  <input
-                    type="email"
-                    id="form3Example3cg"
-                    class="form-control form-control-lg"
-                  />
-                </div>
+                <div class="col-7"></div>
 
-                <div class="form-outline mb-2">
-                  <label class="form-label" for="form3Example4cg">
-                    Password
-                  </label>
-                  <input
-                    type="password"
-                    id="form3Example4cg"
-                    class="form-control form-control-lg"
-                  />
+                <div class="col">
+                  <div class="d-flex" style="height: 50px">
+                    <div class="vr"></div>
+                  </div>
                 </div>
-
-                <div class="form-outline mb-2">
-                  <label class="form-label" for="form3Example4cdg">
-                    Repeat your password
-                  </label>
-                  <input
-                    type="password"
-                    id="form3Example4cdg"
-                    class="form-control form-control-lg"
-                  />
+                <div class="col">Locate Ambulan</div>
+                <div class="col">
+                  <div class="d-flex" style="height: 50px">
+                    <div class="vr"></div>
+                  </div>
                 </div>
-
-                <div class="form-check d-flex justify-content-center mb-2">
-                  <input
-                    class="form-check-input me-2"
-                    type="checkbox"
-                    value=""
-                    id="form2Example3cg"
-                  />
-                  <label class="form-check-label" for="form2Example3g">
-                    I agree all statements in
-                    <a href="#!" class="text-body"><u>Terms of service</u></a>
-                  </label>
+                <div class="col text-center">
+                  Points <br />
+                  500
                 </div>
-
-                <div class="d-flex justify-content-center">
-                  <button
-                    type="button"
-                    class="btn btn-success btn-block btn-lg text-body shadow m-1"
-                    style="
-                      background-image: linear-gradient(
-                        to right,
-                        #2c51c9,
-                        #2c86f0
-                      );
-                    "
-                  >
-                    Register
-                  </button>
+                <div class="col"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center mt-5">
+          <div class="col"></div>
+          <div class="col-10">
+            <div
+              class="card p-3 shadow mb-5 bg-body rounded"
+              style="border-radius: 15px"
+            >
+              <div class="row">
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Call Ambulance
                 </div>
-
-                <p class="text-center text-muted mt-2 mb-0">
-                  Have already an account?
-                  <a href="login.html" class="fw-bold text-body">
-                    <u>Login here</u>
-                  </a>
-                </p>
-              </form>
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Ride History
+                </div>
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Addresses
+                </div>
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Hospitals
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Saved Ambulance
+                </div>
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Transactions
+                </div>
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Edit Profile
+                </div>
+                <div
+                  class="col m-2 p-3 pt-5 pb-5 text-center border border-2 shadow-sm p-3 mb-5 bg-body rounded"
+                >
+                  Change Password
+                </div>
+              </div>
             </div>
           </div>
           <div class="col"></div>
@@ -261,10 +263,10 @@
           class="text-center p-3"
           style="background-color: rgba(0, 0, 0, 0.2)"
         >
-          © 2020 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/"
-            >MDBootstrap.com</a
-          >
+        © 2022 Copyright:
+          <a class="text-white" href="https://www.facebook.com/jahidhsanto/">
+            jahidhsanto
+            </a>
         </div>
         <!-- Copyright -->
       </footer>
